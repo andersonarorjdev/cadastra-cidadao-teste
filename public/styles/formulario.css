@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+}
+
+#Formulario{
+    background-color: #4303df;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-family: bolder;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Inputs > input{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+
+    border: 2px solid #000;
+
+    font-size: 17px;
+    font-family: monospace;
+
+    padding-left: 15px;
+
+    margin: 10px 0px;
+}
+
+.Inputs-Small{
+    display: flex;
+    margin: 10px 0px;
+
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.Inputs-Small >  input{
+    border-radius: 10px;
+
+    width: 250px;
+    height: 50px;
+
+    padding-left: 15px;
+
+    border: 2px solid #000;
+}
+
+.Inputs-Small > span > select{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+
+    font-size: 17px;
+    font-family: monospace;
+
+    padding-left: 15px;
+
+    border: 2px solid #000;
+}
+
+.Inputs-Small > span > label{
+    font-size: 12px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Inputs-Small > span{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 400px;
+    height: 45px;
+
+    border-radius: 15px;
+    border: 2px solid #000;
+    background-color: #00A9FF;
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+@media(max-width: 700px){
+    article{
+        font-size: 18px;
+        font-family: monospace;
+        text-align: center;
+    }
+    .Inputs > input{
+        width: 80vw;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    .Inputs-Small > span > label{
+       margin-top: 10px;
+       margin-left: 5px;
+    }
+
+    .Inputs-Small{
+        flex-direction: column;
+    }
+
+    button{
+        width: 250px;
+        height: 45px;
+    
+        margin-top: 20px;
+        margin-bottom: 50px;
+    
+        font-size: 18px;
+    }
+    
+}
