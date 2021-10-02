@@ -16,7 +16,7 @@ renomeie esse arquivo para `.env` dentro da raíz.
 
 Logo após, você precisa configurar o seu ambiente de desenvolvimento dentro do .env, com as configurações do seu banco de dados.
 
-Execute o seguinte comando no termianl para poder gerar a chave da aplicação:
+Execute o seguinte comando no terminal para poder gerar a chave da aplicação:
 
 ```
 php artisan key:generate
